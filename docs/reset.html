@@ -1,0 +1,66 @@
+reset<style>
+    .lg-container {
+        background-color: #f4f4f4;
+        padding: 20px 10px 20px 10px;
+        font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    .lg-box {
+        max-width: 600px;
+        padding: 30px 50px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .lg-content {
+        margin-top: 40px;
+    }
+
+    .lg-link {
+        margin-top: 20px;
+    }
+
+    .lg-confirm-button {
+        text-decoration: none !important;
+        font-size: 16px;
+        line-height: 38px;
+        height: 38px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        width: 150px;
+        height: 38px;
+        text-align: center;
+        background-color: #2F8DEE;
+        box-shadow: 0 2px 4px 0 rgba(112, 182, 255, 0.50);
+        border-radius: 2px;
+    }
+    .lg-footer {
+        margin-top: 40px;
+        font-size: 12px;
+        text-align: center;
+    }
+</style>
+<div class="lg-container">
+    <div class="lg-box">
+        <div class="lg-content">
+            <div>
+                <p>亲爱的用户，</p>
+                <p>请点击“找回密码”按钮，重新设置密码。本链接将在24小时之后失效，请及时完成注册。</p>
+            </div>
+            <div>
+                <a href="%s" class="lg-confirm-button" target="_blank">找回密码</a>
+            </div>
+            <div class="lg-link">
+                如果页面按钮失效，请拷贝一下链接打开 <a href="%s">%s</a>
+            </div>
+        </div>
+        <div class="lg-footer">
+            乐咕乐股网
+        </div>
+    </div>
+</div>
